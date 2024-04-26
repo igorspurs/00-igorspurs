@@ -230,3 +230,13 @@ Para links sem uma palavra por cima do link, use '< >' para envolver o link dese
 SINTAXE:
 Clique na imagem para acessar o Google.
 [![Logo_Google_2013_Official svg](https://user-images.githubusercontent.com/5532...](https://google.com.br)
+
+- LISTS
+Fica dentro da parte de estrelas;
+serve para classificar os repositorios; de forma ainda maior, uma hierarquia superior;
+
+- GIST -no github
+gists no GitHub são uma maneira simples de compartilhar trechos de código com outras pessoas. Cada gist é um repositório Git, o que significa que ele pode ser bifurcado e clonado
+- Os gists são usados para manter pedaços de código (snippets) que não são específicos de nenhuma aplicação ou não são tão importantes a ponto de terem um repositório dedicado. Geralmente, as pessoas usam gists para compartilhar (ou manter em um local único) códigos que usam com frequência.
+Para fazer o download de um gist, basta cloná-lo ou baixar os arquivos diretamente do próprio gist2.
+
