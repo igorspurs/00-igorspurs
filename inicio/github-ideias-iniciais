@@ -1,0 +1,232 @@
+Sobre repositórios
+
+Para criar um novo repositório, vá para https://github.com/new
+
+Criar um arquivo LEIAME
+Para que as pessoas possam entender e navegar mais facilmente por seu trabalho, crie um arquivo LEIAME para cada repositório
+- a minha area pessoal no github tem repositorios
+
+- Repositorio é uma pasta grande, que pode ser estruturada de forma hierárquica com arquivos, arquivos markdown, outros arquivos
+- não vou forçar o uso nesses repositorios, buscar alternativas na nuvem como dropbox, drive, onedrive, etc;
+- criar aquivos de texto dentro do repositorio;
+- para o arquivo ser markdown, usar o .md
+- para criar uma pasta, usar o SLASH (/) e criar um arquivo dentro da pasta;
+- posso tornar o repositorio um template
+
+- IDEIAS DE OUTROS REPOSITORIOS
+primeiro de tudo  é um bom README com descrição, títulos, categorizado, explicando bem o que está no repositorio; uma WIKI;
+- pastas
+- pastas linkadas ao readme
+- ideia para o readme:
+Documentação Técnica
+O arquivo README deve ser visto como um ponto de partida e dentro dele deve haver links para leva-lo a documentações mais complexas que detalham processos mais especificos. Como organizar seu README:
+
+📁 Crie uma pasta chamada docs e ter um docs/README.md.
+
+💡 Ideias para docs:
+⚙️ installation.md - Aqui você pode detalhar todo o processo de instalação como se fosse a primeira vez da pessoa utilizando o projeto.
+👀 usage.md - visão detalhada sobre comandos e outros detalhes de como utilizar o projeto.
+🚀 advanced.md - Documento para assuntos mais específicos do projeto.
+🤝 contributing.md - esse documento deve conter as orientações necessárias para caso alguém queria contribuir com o projeto, independente da forma.
+👔 code_of_conduct.md - o código de conduta informa os usuários de expectativas para sua conduta enquanto participante da comunidade formada ao redor do projeto. leia mais
+📜 license - Esse documento deve conter os detalhes sobre a licença do seu projeto.
+
+- link no readme p/ project: com todo, progress, done;
+
+
+
+
+
+GITHUB ISSUES
+- Para criar um problema, você precisa de um repositório.
+- Primeiro, crie um problema. Existem várias maneiras de criar um problema.
+ex. página principal do repositório > Problemas > novo problema
+- titulo; descrição explicando;
+- pode usar markdown
+- criar uma lista de tarefas simples usando [ ] no corpo do texto do problema
+- add etiquetas: categorizar o problema, no lado direito
+- pode add marcos-milestones: mostra o progresso a medida que se aproxima do prazo: no marco posso colocar uma descrição, com informações como uma visão do rojeto, prazos do projeto, prazo do marco, porcentagem de conclusão do marco, numero de problemas ligados ao marco, lista de problemas ligados ao marco
+- posso add o problema a um projeto existente
+
+GITHUB PROJECTS
+
+- Um projeto é uma coleção adaptável de itens que você pode exibir como uma tabela, um quadro kanban ou um roteiro e que permanece atualizado com dados da GitHub. 
+- criar projeto: your profile - projects - new project - seleciona o modelo - pode escolher os campos de metadados que quer;
+- crie um arquivo README - detalhar a finalidade do projeto, instruçoes sobre como usar e incluir links relevantes; 
+- posso add uma breve descrição no inicio do projeto - sem ser no README
+- O readme tem markdown
+- Seus projetos podem acompanhar problemas, solicitações de pull e ideias que você anotar.
+- Um projeto pode ficar dentro ou fora de um repositorio, mas não precisa necessariamente estar ligado a um arquivo, são seções autonomas;
+- Num projeto, posso converter um item no ISSUE - para ser issue precisa estar num repositorio
+- Num projeto, cada célula tem vários itens, pra filtrar, como se fosse uma tabela ou kanban; os itens que eu achei interessantes, dos que já vem: status, label(ligada a issue), repository pra ver se a celula está ligada a algum repositorio;
+- alem disso posso criar colunas especificas conforme o meu gosto e os parametros dessa coluna podem ser em texto livre, numero, select ou data;
+- criar um campo personalizado prioridade select c os valores alta media baixa
+- dentro de uma celula do project eu posso add textos descritivos, ou colocar arquivos(ressalva do armazenamento de arquivos do github)
+- pra fazer uma lista de tarefas dentro de uma celula nos projetos, é recomendado usar [ ]
+- tem as visões de tabela, kanban, roadmap
+- no projeto, posso arquivar as celulas conforme a necessidade, tambem posso deletar;
+- um projeto pode ter status aberto ou fechado; acho que se terminar posso encerrar um projeto, ou fechar um projeto termporariamente e depois abrir; 
+- no lado do nome do projeto, posso clicar - agrupar - prioridade para facilitar o foco nos itens de alta prioridade; salvar alteraçoes para essa visualização ficar;
+- consigo pesquisar pelos projetos; eles podem ser da conta ou dos repositorios da conta:
+- sintaxe de pesquisa dos projetos: 
+is:open	Retorna projetos que estão abertos no momento.
+is:closed	Retorna projetos que estão fechados no momento.
+is:template	Retorna projetos marcados como um modelo.
+is:private	Retorna projetos definidos como visibilidade privada.
+is:public	Retorna projetos definidos como visibilidade pública.
+creator:USERNAME	Retorna projetos criados por USERNAME. Por exemplo, creator:octocat retornará projetos criados por @octocat.
+- alterar a ordenação dos projetos:
+sort:title-asc	Ordenar por título de projeto.
+sort:updated-asc ou sort:updated-desc	Classificar pelo horário da última atualização.
+sort:created-asc ou sort:created-desc	Classificar por quando o projeto foi criado.
+
+MARKDOWN
+
+- A maior utilidade dela atualmente certamente é para criar os famosos READMEs;
+
+- Todo projeto seu no GitHub terá seus códigos, seus arquivos, suas pastas todas jogadas lá. Um projeto digno e bem estruturado precisa passar para o leitor o sentido do seu projeto, para que ele serve, como funciona, quais linguagens, sistemas, funcionalidades, ferramentas você utilizou para criar seu programa, como contribuir, e dezenas de outras informações necessárias tem que ficar bem explicitas ao leitor quando o mesmo se deparar com seu repositório.
+
+- Alguns pontos e detalhes a serem adicionados em seu arquivo readme.md para melhorar seu projeto:
+
+Introdução
+Uma breve apresentação sobre o que é o seu projeto, o que ele faz, e algumas informações úteis para serem ditas inicialmente.
+
+Índice
+Assim como nesse readme.md também tem, é interessante ter um índice com os links para os tópicos que vão ser abordados em seu texto.
+
+Habilidaes adiquiridas ou requisitadas para o projeto
+Se tens posse de um projeto que visa a aprendizagem, o seu próprio estudo ou até base para estudos de outras pessoas, é interessante colocar quais habilidades são requeridas para estudar/rodar o seu código, ou habilidades que vão ser adiquiridas se seguirem os seus estudos.
+
+Como executar
+Se tens um programa que faz alguma coisa, um jogo, um código em determinada linguagem, é interessante adicionar a informação de como executar seus códigos, quais programas precisa no computador do usuário, comando para executar os códigos, algumas informaçãoes de quais arquivos precisa ter, entre diversos outros.
+
+Contribuindo
+Se teu projeto é OpenSource, é natural que outros progamadores irão querer melhorar seu projeto, adicionando novos recursos, corrigindo algum bug, implementando alguma tecnologia, entre diversos outros, para isso ele deverá fazer pulls requests em seu código, seria muito interessante implementar algumas informações de como contribuir com o projeto, como fazer um Fork, como fazer o pull request, e até algumas preferências pessoais suas de como queres o pull request
+
+Créditos e Licença
+É interessante também em alguns casos concluir com os créditos do repositório ou até mesmo da licença utilizada nele.
+
+- Note que não são todos os pontos a colocar, tão pouco são obrigatórios, pensei apenas em ajudar os iniciantes que estão criando teus repositórios no momento;
+
+- Títulos: Existe uma herança de títulos, em que diferem não só o tamanho da fonte, como também semânticamente. Ou seja, o título número 1 é mais importante que o título número 2, que por sua vez é mais importante que o número 3, e assim por diante.
+Existem 6 títulos, que vai do título 1 (mais importante e por conseguinte maior e mais destacado) até o título 6 (menos importante e por conseguinte menor e menos destacado).
+
+SINTAXE
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+
+- obs que o titulo gera um link para esse ponto específico
+
+- ENFASE: negrito, o itálico, ou até mesmo negrito e itálico.
+- SINTAXE NEGRITO: 
+Este é **negrito**
+This is __strong__
+- SINTAXE ITALICO
+Este é *itálico*
+This is _italic_
+- SINTAXE NEGRITO E ITALICO:
+**_strong and em_**
+- SINTAXE RISCADO:
+~~riscado~~
+
+- LINHA HORIZONTAL: tres traços, asteriscos ou underlines
+---
+****
+___
+
+- CITAÇÃO: basta o >
+SINTAXE:
+Para citações em uma linha:
+> Esta é uma citação
+
+Em várias linhas:
+SINTAXE
+> Citação 1
+>
+> Citação 2
+
+CITAÇÃO DENTRO DA CITAÇÃO:
+> Citação 1
+>
+>> Citação 2
+
+LISTAS: numero+ponto
+1.
+2.
+3.
+4.
+
+Lista dentro da lista: use o recuo e crie uma nova lista dentro da lista
+SINTAXE
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
+    1. Indentado item
+    2. Indentado item
+4. Quarto item
+
+- BULLET LIST: traço, asterisco ou + no inicio da linha
+SINTAXE
+- 
++
+*
+
+- LISTA DE TAREFAS: checkbox pode estar preenchida ou não
+SINTAXE:
+- [ ] Esta é uma CheckBox não marcada
+- [x] Esta é uma CheckBox marcada
+
+-EMOJIS: dois pontos+nome do emoji+dois pontos
+SINTAXE: :smile: :fire: :file_folder: :space_invader: :computer:
+
+- TABELA: Escolha os títulos das colunas e use | para delimitar as colunas. Depois, utilize hífen - na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o | para delimitar colunas.
+SINTAXE:
+Teste   | Exemplo
+------- | ------
+Teste 1 | Exemplo 1
+Teste 2 | Exemplo 2
+Teste 3 | Exemplo 3
+Teste 4 | Exemplo 4
+
+- Alinhamento na tabela: utilize dois pontos : ao lado do campo horizontal de hífens ---, na segunda linha da sua tabela. Veja abaixo:
+Alinhado a esquerda: usar : no lado esquerdo (alinhamento padrão)
+Alinhado a direita: usar : no lado direito
+Centralizado: usar : dos dois lados
+SINTAXE:
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Exemplo | Exemplo | Exemplo
+
+- CODIGOS:
+
+Temos o trecho simples, sendo de apenas uma linha, usando uma crase para abrir e outra para fechar:
+SINTAXE:
+` este é um exemplo `
+
+E também temos a mais completa, que podemos colocar quantas linhas de códigos nós quisermos. Use três crases ( ´´´ ) ou três tils ( ~~~ ) para abrir e três para fechar
+SINTAXE
+  ```
+    Este é nosso
+    Querido Exemplo
+    
+    **Teste**
+    
+    Nota que não irá formatar o negrito!
+    ```
+
+- LINKS: É possível colocar algum link em seu 'Readme', e ainda colocá-lo por debaixo de uma palavra, é o chamado link-âncora, acessando-o ao clicar na palavra. Entre colchetes [ ] a palava que deseja por debaixo dos panos. E entre parentêses ( ) o link para acesso. 
+SINTAXE:
+Clique [aqui](https://github.com) para acessar à página do GitHub.
+
+Resultado: Clique aqui para acessar à página do GitHub.
+
+Para links sem uma palavra por cima do link, use '< >' para envolver o link desejado, assim o link aparecerá por inteiro ao leitor. Exemplo: https://google.com.br
+
+- LINKS EM IMAGENS:
+SINTAXE:
+Clique na imagem para acessar o Google.
+[![Logo_Google_2013_Official svg](https://user-images.githubusercontent.com/5532...](https://google.com.br)
