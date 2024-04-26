@@ -1,4 +1,4 @@
-- 👋 Oi, eu sou o Igor.
+👋 Oi, eu sou o Igor.
 
 
 
