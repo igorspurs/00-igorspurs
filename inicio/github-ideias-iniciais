@@ -23,6 +23,8 @@ O arquivo README deve ser visto como um ponto de partida e dentro dele deve have
 
 📁 Crie uma pasta chamada docs e ter um docs/README.md.
 
+Na verdade o que eu tenho que aprender a fazer é o wiki
+
 💡 Ideias para docs:
 ⚙️ installation.md - Aqui você pode detalhar todo o processo de instalação como se fosse a primeira vez da pessoa utilizando o projeto.
 👀 usage.md - visão detalhada sobre comandos e outros detalhes de como utilizar o projeto.
@@ -32,11 +34,20 @@ O arquivo README deve ser visto como um ponto de partida e dentro dele deve have
 📜 license - Esse documento deve conter os detalhes sobre a licença do seu projeto.
 
 - link no readme p/ project: com todo, progress, done;
+-----//----------
+1. Markdown Files (.md)
+Você pode criar arquivos em formato Markdown diretamente nos repositórios do GitHub. O Markdown é um formato de texto leve que permite a formatação simples, como títulos, listas e links, facilitando a organização de suas anotações.
+Esses arquivos podem ser organizados em diferentes diretórios, simulando um sistema de anotações hierárquico.
+2. Issues e Pull Requests
+Outra forma é usar a seção de Issues ou Pull Requests do repositório. Embora esses recursos sejam normalmente usados para rastrear bugs ou novas funcionalidades, você pode utilizá-los como anotações, pois é possível adicionar rótulos, comentários e até vincular arquivos.
+3. GitHub Wiki
+GitHub oferece um recurso de Wiki para cada repositório. Esse recurso é ótimo para organizar informações de maneira hierárquica e é fácil de navegar. É semelhante a um wiki tradicional, onde você pode criar várias páginas interligadas.
+4. Gists
+O GitHub também tem um recurso chamado Gists, que permite criar pequenos fragmentos de código ou notas. Um Gist pode ser público ou privado e pode ser uma opção rápida para anotações menores ou fragmentadas.
 
 
 
-
-
+-------//---------
 GITHUB ISSUES
 - Para criar um problema, você precisa de um repositório.
 - Primeiro, crie um problema. Existem várias maneiras de criar um problema.
