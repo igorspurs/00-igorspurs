@@ -1,1 +1,0 @@
-alo galera de cauboi
