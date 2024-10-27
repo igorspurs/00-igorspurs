@@ -220,7 +220,8 @@ SINTAXE:
 
 E também temos a mais completa, que podemos colocar quantas linhas de códigos nós quisermos. Use três crases ( ´´´ ) ou três tils ( ~~~ ) para abrir e três para fechar
 SINTAXE
-  ```
+
+  ``
     Este é nosso
     Querido Exemplo
     
@@ -250,9 +251,31 @@ serve para classificar os repositorios; de forma ainda maior, uma hierarquia sup
 gists no GitHub são uma maneira simples de compartilhar trechos de código com outras pessoas. Cada gist é um repositório Git, o que significa que ele pode ser bifurcado e clonado
 - Os gists são usados para manter pedaços de código (snippets) que não são específicos de nenhuma aplicação ou não são tão importantes a ponto de terem um repositório dedicado. Geralmente, as pessoas usam gists para compartilhar (ou manter em um local único) códigos que usam com frequência.
 Para fazer o download de um gist, basta cloná-lo ou baixar os arquivos diretamente do próprio gist2.
+- Preciso anotar alguma coisa aleatoria rapidamente, que nao ta estruturada nos eixos que eu ja tenho nos repositorios? Uso o GITHUB GIST; E se precisar colocar print? adiciono .md no nome do arquivo e consigo colar os prints sem nem sequer precisar salvar, após commit eles aparecem no arquivo
 
 - GITHUB PROJETOS - mt pica, vai ser minha tasklist agora;
 
 - Mudar arquivos dentro de uma pasta no diretório é na parte de editar, voltar o nome e escrever o nome do diretório certo; NÃO dá pra mudar pra outro diretório; acho que só baixando o arquivo e add no outro espaço;
 
 - Ver se precisa limpar commits - fazer uma limpeza se precisar, para deixar mais leve
+
+### COMO USAR TEMPLATES E COPIAR PASTAS? 
+
+- Criar um diretorio(pasta) dentro de um repositório para usar como template;
+ex.
+templates/
+   ├── template_a/
+   └── template_b/
+- Baixar a pasta desejada
+- duplica-la localmente
+- fazer upload no github web: Add file > Upload files.
+
+  
+
+
+
+
+
+
+
+
