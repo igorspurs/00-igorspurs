@@ -270,7 +270,15 @@ templates/
 - duplica-la localmente
 - fazer upload no github web: Add file > Upload files.
 
-  
+  ### Criar template: 
+
+baixar pasta template do github usando um dos sites, 
+para o desktop
+depois upar ela dentro da pasta que eu quero replicar
+
+/obs: assim vai dar certo aquele maior problema que eu tinha em ter que criar varias vezes os mesmos docs - isso nao vai mais precisar ser feito
+
+
 
 
 
