@@ -1,0 +1,29 @@
+O GitHub suporta uma ampla variedade de arquivos, divididos principalmente em categorias de código-fonte, documentação, recursos multimídia e configurações. Aqui estão alguns dos principais tipos:
+
+1. Código-fonte
+Linguagens de Programação: .py (Python), .js (JavaScript), .java (Java), .cpp (C++), .cs (C#), .rb (Ruby), .php, .html, .css, entre outros.
+Scripts e Automation: .sh (Shell Script), .bat (Batch), .ps1 (PowerShell).
+Bibliotecas e Frameworks: Arquivos .jar, .dll, .so, .a.
+
+
+2. Documentação e Markdown
+Documentação em texto: .md (Markdown), .txt, .rst (reStructuredText).
+Licenças e informações de projeto: README.md, LICENSE, CONTRIBUTING.md.
+
+
+3. Configurações e Dados Estruturados
+Configuração de ambientes e ferramentas: .json, .xml, .yml/.yaml, .ini.
+Controle de versão e builds: .gitignore, .gitattributes, Dockerfile, Makefile, Jenkinsfile.
+
+
+4. Recursos Multimídia
+Imagens: .png, .jpg, .svg, .gif.
+Vídeos: .mp4, .mov.
+Áudio: .mp3, .wav.
+Outros formatos de texto estruturado e planilhas: .csv, .xlsx.
+
+
+5. Outros Arquivos Comuns
+Arquivos binários: .zip, .tar, .gz.
+Modelos e documentos: .pdf, .docx, .odt.
+A visualização de alguns desses arquivos no navegador é limitada; no entanto, o GitHub permite o download de qualquer tipo de arquivo e o suporte a pré-visualização para muitos formatos populares, especialmente Markdown e alguns arquivos multimídia.
