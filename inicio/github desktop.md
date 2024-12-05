@@ -249,6 +249,65 @@ Remover um repositório remoto:
 
 git remote remove <nome>
 
+## Pasta Local no HD
+
+
+Vou alocar os arquivos do github desktop no HD separado do Linux, o caminho é esse:
+
+/media/igor/HD ARQUIVOS IGOR/Github
+
+ali vão ficar os arquivos clonados para uso local temporário
+
+## Gerenciar os repositorios clonados localmente - preocupaçao com memoria
+
+Sim, você pode deletar os repositórios clonados no seu computador a qualquer momento sem afetar o repositório remoto (no GitHub ou outro servidor). Aqui estão alguns pontos importantes sobre isso:
+
+1. O que acontece ao deletar o repositório local?
+
+
+Não afeta o remoto: Deletar o repositório local não exclui o repositório original que está hospedado no GitHub.
+
+Perde o histórico local: Caso você tenha feito commits ou alterações no repositório local que ainda não foram enviados (push) ao remoto, essas alterações serão perdidas.
+
+Pode ser rebaixado novamente: Se você precisar trabalhar no repositório novamente, poderá cloná-lo outra vez do remoto.
+
+2. Como deletar um repositório local?
+
+
+Você pode deletar o repositório localmente como qualquer outra pasta no seu computador.
+
+Passo a passo:
+Localize o repositório clonado no seu computador. O caminho geralmente é configurado no momento da clonagem (por exemplo: ~/Documentos/GitHub).
+Delete a pasta usando o Gerenciador de Arquivos ou o comando no terminal:
+
+rm -rf caminho-do-repositorio
+
+⚠️ Cuidado: Certifique-se de estar deletando a pasta correta.
+
+3. Posso trabalhar offline antes de deletar?
+
+Sim, mas lembre-se de:
+
+Fazer push de todas as alterações importantes para o repositório remoto antes de deletar.
+
+Se não fizer push, alterações locais serão perdidas para sempre após a exclusão.
+
+4. Recomendações
+
+Limpeza periódica: Deletar repositórios locais que você não está mais usando ajuda a liberar espaço no disco.
+
+Trabalho ativo: Apenas mantenha localmente os repositórios nos quais está trabalhando.
+
+Backup: Se não tiver certeza, você pode comprimir a pasta do repositório (zipar) antes de deletá-la para garantir um backup temporário.
+
+5.Se precisar rebaixar o repositório futuramente, basta usar o comando:
+
+git clone <URL-do-repositorio>
+
+
+
+
+
 
 
 
