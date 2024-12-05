@@ -91,15 +91,15 @@ author identity unknown - não compila as alterações
 para corrigir, no terminal
 
 1. config email
-2. 
+
 git config --global user.email "seu-email@example.com"
 
-3. config nome
-4. 
+2. config nome
+   
 git config --global user.name "Seu Nome"
 
-5. Testar a configuração e ver se deu certo
-6. 
+3. Testar a configuração e ver se deu certo
+
 git config --list
 
 Deve aparecer algo assim:
